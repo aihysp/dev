@@ -1,0 +1,38 @@
+{
+  "version": 4,
+  "terraform_version": "1.6.0",
+  "serial": 1,
+  "lineage": "2be8a415-ba7f-1508-bb1b-6ff0f9ed1531",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "example_file",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "This is a practice Terraform file.",
+            "content_base64": null,
+            "content_base64sha256": "yi6rBCV8WIjMj8R/FLo+2Q/Ul97skDnNGI0GPB2lEhw=",
+            "content_base64sha512": "i4fNtPvbBBnDq742l1YlEpvItg/AZC/4u0zaDCI3DzxrNoGd5/QYP35Oo5I9FkU36HhwMANRePRguzE9M8caNg==",
+            "content_md5": "019a41691f6e215e4b0578d8f78c57ed",
+            "content_sha1": "01c7c279159736bfacd19f3949717dbe2abd4237",
+            "content_sha256": "ca2eab04257c5888cc8fc47f14ba3ed90fd497deec9039cd188d063c1da5121c",
+            "content_sha512": "8b87cdb4fbdb0419c3abbe36975625129bc8b60fc0642ff8bb4cda0c22370f3c6b36819de7f4183f7e4ea3923d164537e8787030035178f460bb313d33c71a36",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "/tmp/example.txt",
+            "id": "01c7c279159736bfacd19f3949717dbe2abd4237",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
